@@ -1,0 +1,13 @@
+@import 'variables';
+
+.survey-card {
+  border: 1px solid #dee2e6;
+  border-radius: \-radius;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+}

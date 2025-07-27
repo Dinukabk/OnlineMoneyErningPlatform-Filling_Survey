@@ -1,0 +1,17 @@
+@import 'variables';
+
+.admin-section {
+  padding: 1.5rem;
+  border-radius: \-radius;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.approve-btn {
+  background-color: \-color;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

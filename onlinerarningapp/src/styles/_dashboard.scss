@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+.dashboard-header {
+  background: linear-gradient(90deg, \-color, lighten(\-color, 20%));
+  color: white;
+  padding: 1.5rem;
+  border-radius: \-radius;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  border-radius: \-radius;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  @include transition(transform);
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}

@@ -1,0 +1,23 @@
+@import 'variables';
+
+body {
+  font-family: \-family-base;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: \-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
